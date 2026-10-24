@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">
+            <h2><a href="index.html">🩸 Blood Bank </a></h2>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#stock">Blood Stock</a></li>
+                <li><a href="login.html" class="btn-login">Login</a></li>
+                <li><a href="register.html" class="btn-register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Donate Blood, Save Lives</h1>
+            <p>A single drop of your blood can give someone a second chance at life. Join our community of lifesavers today.</p>
+            <div class="hero-buttons">
+                <a href="login.html" class="btn btn-primary">Become a Donor</a>
+                <a href="login.html" class="btn btn-secondary">Request Blood</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blood Stock Preview Section -->
+    <section class="stock-section" id="stock">
+        <h2 class="section-title">Available Blood Stock</h2>
+        <p class="section-subtitle">You can see the available blood in our blood bank.</p>
+        
+        <div class="blood-grid">
+            <div class="blood-card">
+                <h3>A+</h3>
+                <p class="units">15 Bags</p>
+                <span class="badge available">Available</span>
+            </div>
+            <div class="blood-card">
+                <h3>A-</h3>
+                <p class="units">4 Bags</p>
+                <span class="badge low">Low Stock</span>
+            </div>
+            <div class="blood-card">
+                <h3>B+</h3>
+                <p class="units">20 Bags</p>
+                <span class="badge available">Available</span>
+            </div>
+            <div class="blood-card">
+                <h3>B-</h3>
+                <p class="units">2 Bags</p>
+                <span class="badge critical">Critical</span>
+            </div>
+            <div class="blood-card">
+                <h3>O+</h3>
+                <p class="units">25 Bags</p>
+                <span class="badge available">Available</span>
+            </div>
+            <div class="blood-card">
+                <h3>O-</h3>
+                <p class="units">3 Bags</p>
+                <span class="badge critical">Critical</span>
+            </div>
+            <div class="blood-card">
+                <h3>AB+</h3>
+                <p class="units">8 Bags</p>
+                <span class="badge available">Available</span>
+            </div>
+            <div class="blood-card">
+                <h3>AB-</h3>
+                <p class="units">1 Bags</p>
+                <span class="badge critical">Critical</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works / About Section -->
+    <section class="about-section" id="about">
+        <h2 class="section-title">How It Works</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">1</div>
+                <h3>Register & Login</h3>
+                <p>Create your account in seconds as a donor or a recipient.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">2</div>
+                <h3>Submit Request</h3>
+                <p>Choose to either donate blood or request blood bags for an emergency.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">3</div>
+                <h3>Admin Verification</h3>
+                <p>Requests are set to 'Pending' until approved by the system administrator.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">4</div>
+                <h3>Stock Updated</h3>
+                <p>Upon approval, the blood stock is automatically incremented or decremented.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Blood Bank develop by ECE department of RUET.</p>
+    </footer>
+
+</body>
+</html>
